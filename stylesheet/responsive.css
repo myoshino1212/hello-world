@@ -1,0 +1,94 @@
+
+@media (max-width: 1280px) {
+   .menu-table{
+     display: block;
+   }
+   .navToggle{
+     display: none;
+   }
+
+}
+
+@media (max-width: 1030px) {
+  :root {
+    --side-width: 80px;
+    --margin:24px;
+    --img-size: 50%;
+    --svg-width:40vh;
+    --backtext-width: 0.9;
+   }
+
+   html{
+      font-size: 550%;
+   }
+
+   body{
+     font-size: 14px;
+   }
+
+   .top-font{
+     font-size: 6vh;
+   }
+}
+
+
+@media (max-width: 740px) {
+  :root {
+    --side-width: 0px;
+    --menu-logo: 200px;
+    --margin: 12px;
+    --img-size: 60%;
+    --svg-width:40vh;
+   }
+
+   html{
+      font-size: 450%;
+   }
+
+   body{
+     font-size: 12px;
+   }
+
+
+   .menu-bar,.menu-bar-t{
+     align-items: center;
+   }
+
+  .top-font{
+    font-size: 5vh;
+  }
+
+  .menu-table{
+    display: none;
+  }
+
+  .navToggle{
+    display: block;
+  }
+
+  .half-box{
+    width: 100%;
+  }
+
+  .about-box .half-box{
+    margin-top: 20px;
+  }
+
+  .philo-box .half-box{
+    margin-top: 10px;
+    padding: 0 25px 0;
+  }
+
+  .works-box .half-box{
+    margin-top: 40px;
+  }
+
+  .res-l{text-align: left;}
+  .res-c{text-align: center;}
+  .res-r{text-align: right;}
+
+  .margin-b{
+    margin-bottom: 40px;
+  }
+
+}
